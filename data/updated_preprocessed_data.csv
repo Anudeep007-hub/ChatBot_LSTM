@@ -1,0 +1,361 @@
+input_text,target
+connect wifi,wifi_troubleshooting
+fix wifi connect issu,wifi_troubleshooting
+wifi wor,wifi_troubleshooting
+wifi connect unstab,wifi_troubleshooting
+reconnect wifi lose connect,wifi_troubleshooting
+wifi connect,wifi_troubleshooting
+devic connect wifi network,wifi_troubleshooting
+wifi connect keep drop,wifi_troubleshooting
+wifi signal weak,wifi_troubleshooting
+help wifi connect problem,wifi_troubleshooting
+ram frequenc detec correctli,RAM_frequency_issue
+ram speed issu,RAM_frequency_issue
+ram run rate speed,RAM_frequency_issue
+ram frequenc showe wrong bio,RAM_frequency_issue
+memori speed detect problem,RAM_frequency_issue
+ram run slower specifi,RAM_frequency_issue
+bio detec correct ram frequenc,RAM_frequency_issue
+fix ram frequenc detect,RAM_frequency_issue
+ram speed lower advertis,RAM_frequency_issue
+memori clock speed detect issu,RAM_frequency_issue
+power suppli fail,PSU_failure
+psu problem,PSU_failure
+power suppli wor,PSU_failure
+psu make strang nois,PSU_failure
+comput randomli shut psu,PSU_failure
+power suppli unit failur symptom,PSU_failure
+diagnos psu issu,PSU_failure
+psu showe sign failur,PSU_failure
+power suppli unstab behavior,PSU_failure
+psu reliab problem,PSU_failure
+motherboard bio detec new cpu,CPU_detection_issue
+cpu recogn,CPU_detection_issue
+bio fail detect processor,CPU_detection_issue
+new cpu instal detect problem,CPU_detection_issue
+cpu detec,CPU_detection_issue
+motherboard see new processor,CPU_detection_issue
+cpu showe bio,CPU_detection_issue
+fix cpu detect issu,CPU_detection_issue
+bio cpu recognit problem,CPU_detection_issue
+troubleshoot cpu detect,CPU_detection_issue
+check wifi secur set,wifi_security_settings
+wifi secur type,wifi_security_settings
+wifi secur,wifi_security_settings
+type secur wifi us,wifi_security_settings
+check wpa wpa wifi,wifi_security_settings
+verifi wifi secur protocol,wifi_security_settings
+wai check wireless secur set,wifi_security_settings
+fin wifi encrypt type,wifi_security_settings
+determin wifi secur standard,wifi_security_settings
+view network secur set,wifi_security_settings
+extrem quiet constant buzz nois power cabl plug,extremely_quiet_buzzing
+buzz sound power cabl connec,extremely_quiet_buzzing
+power suppli make quiet buzz nois,extremely_quiet_buzzing
+faint buzz power cabl,extremely_quiet_buzzing
+power cabl buzz,extremely_quiet_buzzing
+comput make quiet electr nois,extremely_quiet_buzzing
+psu cabl creat buzz sound,extremely_quiet_buzzing
+constant electr hum power cabl,extremely_quiet_buzzing
+low buzz nois power connect,extremely_quiet_buzzing
+power connector make buzz sound,extremely_quiet_buzzing
+mobo keep flas gpu troubleshoot light,gpu_troubleshoot_light
+gpu light mobo flas,gpu_troubleshoot_light
+motherboard gpu indic light blin,gpu_troubleshoot_light
+gpu debug led flas motherboard,gpu_troubleshoot_light
+graphic card war light motherboard,gpu_troubleshoot_light
+gpu light flas,gpu_troubleshoot_light
+motherboard showe gpu problem light,gpu_troubleshoot_light
+gpu error light keep blin,gpu_troubleshoot_light
+graphic card troubleshoot led activ,gpu_troubleshoot_light
+gpu diagnost light stop flas,gpu_troubleshoot_light
+monitor lose signal,monitor_loses_signal
+signal lost monitor,monitor_loses_signal
+displai suddenli lose connect,monitor_loses_signal
+monitor go black randomli,monitor_loses_signal
+screen lose signal intermitt,monitor_loses_signal
+monitor keep lose signal,monitor_loses_signal
+displai signal drop frequent,monitor_loses_signal
+monitor signal connect issu,monitor_loses_signal
+screen goe black signal,monitor_loses_signal
+monitor signal loss problem,monitor_loses_signal
+memori overclock tune help,memory_overclock_tuning
+help memori overclock tune,memory_overclock_tuning
+tune ram overclock,memory_overclock_tuning
+memori overcloc assist need,memory_overclock_tuning
+ram overcloc guidelin,memory_overclock_tuning
+best set memori overcloc,memory_overclock_tuning
+memori time optimiz help,memory_overclock_tuning
+ram overclock stabil issu,memory_overclock_tuning
+memori overcloc tip need,memory_overclock_tuning
+properli tune ram time,memory_overclock_tuning
+ram stick issu,ram_stick_issue
+on ram stick wor,ram_stick_issue
+memori modul failur,ram_stick_issue
+singl ram stick problem,ram_stick_issue
+ram wor,ram_stick_issue
+memori stick detec,ram_stick_issue
+ram modul malfunct,ram_stick_issue
+faulti ram stick symptom,ram_stick_issue
+memori stick recognit issu,ram_stick_issue
+fix bad ram stick,ram_stick_issue
+laptop xxx ryzen current ddr mhz want grab ram stick make dual channel necessari get model,dual_channel_ram_question
+need ident ram stick dual channel,dual_channel_ram_question
+mix differ ram model dual channel,dual_channel_ram_question
+dual channel ram compat quest,dual_channel_ram_question
+ad second ram stick requir,dual_channel_ram_question
+memori matc dual channel,dual_channel_ram_question
+differ ram model dual channel,dual_channel_ram_question
+ram pair dual channel mode,dual_channel_ram_question
+mix ram brand dual channel,dual_channel_ram_question
+dual channel ram matc requir,dual_channel_ram_question
+cpu high temperatur,cpu_high_temperature
+cpu overh,cpu_high_temperature
+processor run hot,cpu_high_temperature
+cpu temperatur issu,cpu_high_temperature
+fix cpu overh,cpu_high_temperature
+excess cpu heat problem,cpu_high_temperature
+processor temperatur high,cpu_high_temperature
+cpu thermal throttl issu,cpu_high_temperature
+wai reduc cpu temperatur,cpu_high_temperature
+cpu cool problem,cpu_high_temperature
+comput memori problem comput reboot bugcheck,memory_problem_bugcheck
+memori relat bugcheck error,memory_problem_bugcheck
+comput restar due memori problem,memory_problem_bugcheck
+ram caus system bugcheck,memory_problem_bugcheck
+memori error for restart,memory_problem_bugcheck
+system memori bugcheck issu,memory_problem_bugcheck
+ram relat system crash,memory_problem_bugcheck
+memori bugcheck troubleshoot,memory_problem_bugcheck
+comput memori error restart,memory_problem_bugcheck
+memori problem caus reboot,memory_problem_bugcheck
+us two ram stick instead on,two_ram_sticks_vs_one
+benefit us two ram stick,two_ram_sticks_vs_one
+singl dual ram stick perform,two_ram_sticks_vs_one
+benefit us two ram modul,two_ram_sticks_vs_one
+on ram stick two better perform,two_ram_sticks_vs_one
+dual singl ram configur,two_ram_sticks_vs_one
+advantag us two ram stick,two_ram_sticks_vs_one
+multip ram stick singl stick,two_ram_sticks_vs_one
+perform differ on two ram stick,two_ram_sticks_vs_one
+us two ram stick instead on,two_ram_sticks_vs_one
+freez mous keyboard disconnect randomli forc restart,pc_freezes_mouse_keyboard_disconnects
+comput freez periph disconnec,pc_freezes_mouse_keyboard_disconnects
+system freez usb devic disconnec,pc_freezes_mouse_keyboard_disconnects
+random freez periph failur,pc_freezes_mouse_keyboard_disconnects
+mous keyboard disconnec freez,pc_freezes_mouse_keyboard_disconnects
+comput lock devic disconnect,pc_freezes_mouse_keyboard_disconnects
+system hang usb disconnect,pc_freezes_mouse_keyboard_disconnects
+freez caus periph disconnect,pc_freezes_mouse_keyboard_disconnects
+random freez input devic failur,pc_freezes_mouse_keyboard_disconnects
+comput freez for restart,pc_freezes_mouse_keyboard_disconnects
+new ram wor,RAM_not_working
+ram issu,RAM_not_working
+fresh ram instal problem,RAM_not_working
+recent instal ram funct,RAM_not_working
+new memori modul wor,RAM_not_working
+ram instal troubleshoot,RAM_not_working
+new ram stick detec,RAM_not_working
+problem new ram instal,RAM_not_working
+recent ad ram wor,RAM_not_working
+new memori recogn,RAM_not_working
+keep shut randomli,PC_random_shutdown
+random shutdown,PC_random_shutdown
+comput turn unexpectedli,PC_random_shutdown
+system shut without war,PC_random_shutdown
+unexpec power off,PC_random_shutdown
+random comput shutdown,PC_random_shutdown
+tur,PC_random_shutdown
+system power randomli,PC_random_shutdown
+unexpec shutdown problem,PC_random_shutdown
+comput randomli power,PC_random_shutdown
+psu issu upgrad gpu,PSU_upgrade_GPU
+power suppli problem gpu upgrad,PSU_upgrade_GPU
+psu struggl upgrad gpu,PSU_upgrade_GPU
+upgrad gpu affect psu,PSU_upgrade_GPU
+psu handl new gpu,PSU_upgrade_GPU
+psu support new gpu,PSU_upgrade_GPU
+gpu upgrad caus power issu,PSU_upgrade_GPU
+power suppli fail gpu upgrad,PSU_upgrade_GPU
+psu enough gpu,PSU_upgrade_GPU
+upgrad gpu caus power issu,PSU_upgrade_GPU
+comput freez game,gaming_freeze
+game freez,gaming_freeze
+game freez randomli,gaming_freeze
+comput freez game,gaming_freeze
+game freez time,gaming_freeze
+caus game freez,gaming_freeze
+stop game freez,gaming_freeze
+freez game,gaming_freeze
+game crash plai,gaming_freeze
+freez issu game,gaming_freeze
+internet slow,slow_internet_speed
+increas internet speed,slow_internet_speed
+internet sluggish,slow_internet_speed
+slow internet connect issu,slow_internet_speed
+improv internet perform,slow_internet_speed
+wifi speed low,slow_internet_speed
+boost internet speed,slow_internet_speed
+broadband slow,slow_internet_speed
+speed slow internet connect,slow_internet_speed
+fix slow internet connect,slow_internet_speed
+ethernet wor,ethernet_issues
+connect ethernet,ethernet_issues
+fix ethernet connect problem,ethernet_issues
+ethernet connect unstab,ethernet_issues
+ethernet connect drop,ethernet_issues
+ethernet recogn,ethernet_issues
+ethernet port wor,ethernet_issues
+ethernet issu window,ethernet_issues
+ethernet connec,ethernet_issues
+ethernet connect avail,ethernet_issues
+reset network set,network_reset
+reset network set window,network_reset
+need reset network configur,network_reset
+network reset wor,network_reset
+fix network reset issu,network_reset
+perform network reset,network_reset
+network reset wor,network_reset
+reset network set window,network_reset
+network reset fix problem,network_reset
+reconfigur network reset,network_reset
+surfac connect wifi,connectivity_on_surface
+surfac connec,connectivity_on_surface
+wifi issu surfac,connectivity_on_surface
+surfac wifi problem,connectivity_on_surface
+fix wifi surfac,connectivity_on_surface
+surfac wifi wor,connectivity_on_surface
+surfac detect wifi network,connectivity_on_surface
+surfac wifi connect issu,connectivity_on_surface
+surfac keep disconnec wifi,connectivity_on_surface
+resolv surfac wifi issu,connectivity_on_surface
+wifi signal weak,wifi_signal_strength
+improv wifi signal strength,wifi_signal_strength
+weak wifi connect home,wifi_signal_strength
+wifi drop far router,wifi_signal_strength
+caus weak wifi signal,wifi_signal_strength
+boost wifi signal,wifi_signal_strength
+get better wifi recept,wifi_signal_strength
+wifi signal drop,wifi_signal_strength
+increas wifi signal rang,wifi_signal_strength
+poor wifi signal,wifi_signal_strength
+reset router,router_reset
+router reset instruct,router_reset
+reset router,router_reset
+reset router fix connect issu,router_reset
+restart modem router,router_reset
+happen reset router,router_reset
+need reset router,router_reset
+reset home router,router_reset
+router reset fix internet problem,router_reset
+perform router reset,router_reset
+connect vpn,vpn_connection_issues
+vpn wor window,vpn_connection_issues
+fix vpn connect issu,vpn_connection_issues
+vpn connect slow,vpn_connection_issues
+vpn keep disconnec,vpn_connection_issues
+vpn connect,vpn_connection_issues
+resolv vpn connect issu,vpn_connection_issues
+vpn respon,vpn_connection_issues
+vpn connect drop,vpn_connection_issues
+fix slow vpn speed,vpn_connection_issues
+firewal bloc connect,firewall_blocking_connection
+fix firewal bloc issu,firewall_blocking_connection
+firewal caus network problem,firewall_blocking_connection
+firewal set prevent connec,firewall_blocking_connection
+configur firewal network access,firewall_blocking_connection
+firewal keep bloc certain websit,firewall_blocking_connection
+allow specif app firewal,firewall_blocking_connection
+caus firewal connect problem,firewall_blocking_connection
+access internet firewal,firewall_blocking_connection
+disab firewal test network issu,firewall_blocking_connection
+modem wor,modem_issues
+troubleshoot modem problem,modem_issues
+modem connec internet,modem_issues
+modem issu window,modem_issues
+reset modem,modem_issues
+modem blin red,modem_issues
+check modem faulti,modem_issues
+modem get signal,modem_issues
+modem syncing network,modem_issues
+fix modem connect problem,modem_issues
+configur vpn,vpn_configuration
+set vpn window,vpn_configuration
+configur vpn set,vpn_configuration
+vpn configur remot work,vpn_configuration
+set vpn connect,vpn_configuration
+vpn connec configur,vpn_configuration
+vpn protocol us,vpn_configuration
+configur vpn router,vpn_configuration
+set vpn workplac,vpn_configuration
+best vpn configur speed,vpn_configuration
+wifi lose signal,conflicting_wifi_channels
+fix wifi signal drop,conflicting_wifi_channels
+wifi interf issu,conflicting_wifi_channels
+wifi keep disconnec due signal,conflicting_wifi_channels
+wifi lose signal,conflicting_wifi_channels
+fix wifi congest,conflicting_wifi_channels
+best wifi channel router,conflicting_wifi_channels
+stop wifi interf network,conflicting_wifi_channels
+wifi signal drop far router,conflicting_wifi_channels
+wifi intermitt disconnect,conflicting_wifi_channels
+connect network printer,network_printer_issues
+printer connec wifi,network_printer_issues
+fix network printer issu,network_printer_issues
+printer connect time,network_printer_issues
+printer found network,network_printer_issues
+printer find network,network_printer_issues
+reconfigur network printer,network_printer_issues
+network printer offlin,network_printer_issues
+printer sai connec network,network_printer_issues
+printer troubl wifi,network_printer_issues
+router firmwar updat fail,firmware_update_failed
+updat router firmwar,firmware_update_failed
+firmwar updat problem,firmware_update_failed
+fix router firmwar issu,firmware_update_failed
+firmwar updat fail router,firmware_update_failed
+restor router firmwar,firmware_update_failed
+router firmwar updat complet,firmware_update_failed
+instal router firmwar manual,firmware_update_failed
+router fail firmwar updat,firmware_update_failed
+troubleshoot firmwar updat failur,firmware_update_failed
+wifi disconnect sleep mode,wifi_disconnects_after_sleep
+wifi disconnect phone asleep,wifi_disconnects_after_sleep
+keep wifi connec sleep,wifi_disconnects_after_sleep
+wifi keep tur sleep,wifi_disconnects_after_sleep
+wifi disconnect phone loc,wifi_disconnects_after_sleep
+wifi drop standbi mode,wifi_disconnects_after_sleep
+prevent wifi disconnect sleep,wifi_disconnects_after_sleep
+maintain wifi connect sleep mode,wifi_disconnects_after_sleep
+wifi disconnec hibern,wifi_disconnects_after_sleep
+stop devic disconnec wifi,wifi_disconnects_after_sleep
+connect hidden wifi network,connect_hidden_wifi_network
+connec hidden ssid,connect_hidden_wifi_network
+hidden wifi network connect issu,connect_hidden_wifi_network
+connect hidden wifi,connect_hidden_wifi_network
+find connect hidden wifi,connect_hidden_wifi_network
+make wifi network hidden,connect_hidden_wifi_network
+see hidden wifi network,connect_hidden_wifi_network
+hidden wifi network showe,connect_hidden_wifi_network
+connect hidden wifi network manual,connect_hidden_wifi_network
+find password hidden wifi network,connect_hidden_wifi_network
+gpu fan spin properli,GPU_fan_issue
+fan issu,GPU_fan_issue
+gpu fan wor,GPU_fan_issue
+gpu fan spin,GPU_fan_issue
+fix stuck gpu fan,GPU_fan_issue
+gpu fan nois issu,GPU_fan_issue
+gpu fan make weird nois,GPU_fan_issue
+test gpu fan,GPU_fan_issue
+gpu overh due fan issu,GPU_fan_issue
+gpu fan spin slowli,GPU_fan_issue
+gpu caus black screen boot,GPU_black_screen
+black screen startup,GPU_black_screen
+screen black instal new gpu,GPU_black_screen
+fix black screen caus gpu,GPU_black_screen
+gpu caus boot failur,GPU_black_screen
+comput show black screen gpu updat,GPU_black_screen
+solv black screen issu gpu,GPU_black_screen
+screen turn black game,GPU_black_screen
+gpu black screen login,GPU_black_screen
+gpu caus black screen,GPU_black_screen

@@ -1,0 +1,710 @@
+{
+    "intents": [
+      {
+        "tag": "wifi_troubleshooting",
+        "patterns": [
+          "Why can't I connect to wifi?",
+          "How do I fix wifi connection issues?",
+          "My wifi is not working",
+          "Why is my wifi connection unstable?",
+          "How do I reconnect to wifi after losing connection?",
+          "What should I do when wifi won't connect?",
+          "My device won't connect to wifi network",
+          "wifi connection keeps dropping",
+          "Why is my wifi signal weak?",
+          "Help with wifi connectivity problems"
+        ],
+        "response": [
+          "Make sure wifi is turned on. Go to Settings > Network & Internet > wifi, then ensure it's enabled. Restart your modem and router if needed.",
+          "Try restarting your router and device. If that doesn't work, update the network adapter driver through Device Manager.",
+          "Run the Network Troubleshooter by going to Start > Settings > Network & Internet > Status, and select Network Troubleshooter."
+        ],
+        "source": "Microsoft Support (https://support.microsoft.com/en-us/help/10741/windows-fix-network-connection-issues)"
+      },
+      {
+        "tag": "RAM_frequency_issue",
+        "patterns": [
+          "RAM frequency not being detected correctly",
+          "RAM speed issue",
+          "Why isn't my RAM running at rated speed?",
+          "RAM frequency showing wrong in BIOS",
+          "Memory speed detection problems",
+          "RAM running slower than specified",
+          "BIOS not detecting correct RAM frequency",
+          "How to fix RAM frequency detection",
+          "RAM speed lower than advertised",
+          "Memory clock speed detection issue"
+        ],
+        "response": "Try setting the RAM's XMP profile in BIOS manually. Ensure the motherboard supports the specific RAM frequency.",
+        "source": "https://forums.tomshardware.com/threads/ram-frequency-not-being-detected-correctly.3843905/"
+      },
+      {
+        "tag": "PSU_failure",
+        "patterns": [
+          "Power supply failing?",
+          "PSU problems",
+          "Why is my power supply not working?",
+          "PSU making strange noises",
+          "Computer randomly shutting down PSU",
+          "Power supply unit failure symptoms",
+          "How to diagnose PSU issues",
+          "PSU showing signs of failure",
+          "Power supply unstable behavior",
+          "PSU reliability problems"
+        ],
+        "response": ["If you're experiencing random shutdowns or restarts, your PSU may be failing. Test with a different PSU and ensure all connections are secure."],
+        "source": "https://forums.tomshardware.com/threads/power-supply-failing.3843121/"
+      },
+      {
+        "tag": "CPU_detection_issue",
+        "patterns": [
+          "Motherboard BIOS not detecting new CPU",
+          "CPU not recognized",
+          "BIOS fails to detect processor",
+          "New CPU installation detection problem",
+          "Why isn't my CPU being detected?",
+          "Motherboard can't see new processor",
+          "CPU not showing up in BIOS",
+          "How to fix CPU detection issues",
+          "BIOS CPU recognition problem",
+          "Troubleshoot CPU detection"
+        ],
+        "response": "Ensure the BIOS is updated to the latest version that supports the new CPU. If not, update the BIOS and reseat the CPU.",
+        "source": "https://forums.tomshardware.com/threads/motherboard-bios-not-detecting-new-cpu.3842209/"
+      },
+      {
+        "tag": "wifi_security_settings",
+        "patterns": [
+          "How to check wifi security settings",
+          "wifi security type",
+          "Is my wifi secure?",
+          "What type of security is my wifi using?",
+          "Check WPA or WPA2 on wifi",
+          "How to verify wifi security protocol",
+          "Ways to check wireless security settings",
+          "Finding wifi encryption type",
+          "Determine wifi security standard",
+          "View network security settings"
+        ],
+        "response": [
+          "Use the `WifiManager` API to get details about the current network's security type (e.g., WPA, WPA2).",
+          "Check your router settings to see which security protocol is being used, and ensure it is set to WPA2 for better security.",
+          "Avoid using WEP as it is outdated and insecure. Always use WPA2 or WPA3 when available."
+        ],
+        "source": "Stack Overflow (https://stackoverflow.com/questions/25115165/get-the-current-wifi-security-used-on-android)"
+      },
+      {
+        "tag": "extremely_quiet_buzzing",
+        "patterns": [
+          "Extremely quiet but constant buzzing noises when the power cable is plugged in",
+          "Buzzing sound when power cable is connected",
+          "Power supply making quiet buzzing noise",
+          "Faint buzzing from PC power cable",
+          "Why is my power cable buzzing?",
+          "Computer making quiet electrical noise",
+          "PSU cable creating buzzing sound",
+          "Constant electrical humming from power cable",
+          "Low buzzing noise from PC power connection",
+          "Power connector making buzzing sounds"
+        ],
+        "response": [
+          "You could try replacing the power cable. You could also swap the actual connector on the power supply with a better one, but you'd need some soldering experience to solder the live, neutral, and ground wires if the power supply doesn't have wires with terminals."
+        ],
+        "source": "https://linustechtips.com/topic/1583903-extremely-quiet-but-constant-buzzing-noises-when-the-power-cable-plugged-in/"
+      },
+      {
+        "tag": "gpu_troubleshoot_light",
+        "patterns": [
+          "Mobo keeps flashing GPU troubleshoot light",
+          "GPU light on mobo flashing",
+          "Motherboard GPU indicator light blinking",
+          "GPU debug LED flashing on motherboard",
+          "Graphics card warning light on motherboard",
+          "Why is my GPU light flashing?",
+          "Motherboard showing GPU problem light",
+          "GPU error light keeps blinking",
+          "Graphics card troubleshooting LED active",
+          "GPU diagnostic light won't stop flashing"
+        ],
+        "response": [
+          "Could try re-seating the GPU."
+        ],
+        "source": "https://linustechtips.com/topic/1584087-mobo-keeps-flashing-gpu-troublshoot-light/"
+      },
+      {
+        "tag": "monitor_loses_signal",
+        "patterns": [
+          "Monitor loses signal",
+          "Signal lost on monitor",
+          "Display suddenly loses connection",
+          "Monitor going black randomly",
+          "Screen losing signal intermittently",
+          "Why does my monitor keep losing signal?",
+          "Display signal dropping frequently",
+          "Monitor signal connection issues",
+          "Screen goes black no signal",
+          "Monitor signal loss problem"
+        ],
+        "response": [
+          "reset CMOS and it seems to have fixed the problem."
+        ],
+        "source": "https://linustechtips.com/topic/1584026-monitor-loses-signal/"
+      },
+      {
+        "tag": "memory_overclock_tuning",
+        "patterns": [
+          "Memory overclock and tuning. HELP!",
+          "Help with memory overclock and tuning",
+          "How to tune RAM overclock",
+          "Memory overclocking assistance needed",
+          "RAM overclocking guidelines",
+          "Best settings for memory overclocking",
+          "Memory timing optimization help",
+          "RAM overclock stability issues",
+          "Memory overclocking tips needed",
+          "How to properly tune RAM timings"
+        ],
+        "response": [
+          "Performance gains are minimal and for a daily setup the extra work needed to stabilize GDM disabled is not worth it, especially since if you try to keep CR1 with GDM disabled, you generally need to tune the termination settings which takes forever to do."
+        ],
+        "source": "https://linustechtips.com/topic/1583835-memory-overclock-and-tuning-help/"
+      },
+      {
+        "tag": "ram_stick_issue",
+        "patterns": [
+          "RAM stick issue",
+          "One RAM stick is not working",
+          "Memory module failure",
+          "Single RAM stick problem",
+          "Why isn't my RAM working?",
+          "Memory stick not being detected",
+          "RAM module malfunction",
+          "Faulty RAM stick symptoms",
+          "Memory stick recognition issue",
+          "How to fix bad RAM stick"
+        ],
+        "response": [
+          "The most obvious reason for your problem is the stick is dead and needs to be returned. Another common reason for memory slot issues could be the CPU cooler mount (e.g. uneven, loose, too tight)."
+        ],
+        "source": "https://linustechtips.com/topic/1583587-ram-stick-issue/"
+      },
+      {
+        "tag": "dual_channel_ram_question",
+        "patterns": [
+          "I have laptop hp 15s-eq2xxx ryzen 3 5300u currently it has 8gb ddr4 3200mhz. I want to grab 1 more ram stick to make it dual channel. Is it necessary to get the same model?",
+          "Do I need identical RAM sticks for dual channel?",
+          "Can I mix different RAM models in dual channel?",
+          "Dual channel RAM compatibility question",
+          "Adding second RAM stick requirements",
+          "Memory matching for dual channel",
+          "Different RAM models in dual channel",
+          "RAM pairing for dual channel mode",
+          "Mixing RAM brands in dual channel",
+          "Dual channel RAM matching requirements"
+        ],
+        "response": [
+          "With dual channel, the advice is always to use matched sticks, just because that is the safest option. However, in reality, people use all kinds of configurations, and most of them work. If you're running out of RAM, you're better off with more RAM, regardless of speed. Check Kingston and Crucial's configurators to see what they recommend."
+        ],
+        "source": "https://linustechtips.com/topic/1583001-dual-channel-ram-question/"
+      },
+      {
+        "tag": "cpu_high_temperature",
+        "patterns": [
+          "CPU high temperature",
+          "Why is my CPU overheating?",
+          "Processor running too hot",
+          "CPU temperature issues",
+          "How to fix CPU overheating",
+          "Excessive CPU heat problems",
+          "Processor temperature too high",
+          "CPU thermal throttling issue",
+          "Ways to reduce CPU temperature",
+          "CPU cooling problems"
+        ],
+        "response": [
+          "Thermal pasting helps in reducing CPU temps. Additionally, using a better cooling system can help, with options including air cooling or liquid cooling."
+        ],
+        "source": "https://linustechtips.com/topic/1583033-cpu-high-temperature/"
+      },
+      {
+        "tag": "memory_problem_bugcheck",
+        "patterns": [
+          "Your computer has a memory problem. The computer has rebooted from a bugcheck",
+          "Memory-related bugcheck error",
+          "Computer restarting due to memory problem",
+          "RAM causing system bugcheck",
+          "Memory error forcing restart",
+          "System memory bugcheck issue",
+          "RAM-related system crashes",
+          "Memory bugcheck troubleshooting",
+          "Computer memory error restart",
+          "Memory problem causing reboots"
+        ],
+        "response": [
+          "This suggests that you need to replace your RAM."
+        ],
+        "source": "https://linustechtips.com/topic/1582786-your-computer-has-a-memory-problem/"
+      },
+      {
+        "tag": "two_ram_sticks_vs_one",
+        "patterns": [
+          "Should I use two RAM sticks instead of one?",
+          "Is there a benefit to using two RAM sticks?",
+          "Single vs dual RAM stick performance",
+          "Benefits of using two RAM modules",
+          "One RAM stick or two for better performance",
+          "Dual vs single RAM configuration",
+          "Advantages of using two RAM sticks",
+          "Multiple RAM sticks vs single stick",
+          "Performance difference between one and two RAM sticks",
+          "Why use two RAM sticks instead of one"
+        ],
+        "response": [
+          "Having two sticks installed effectively doubles the memory performance that the system can achieve over just running a single stick. System performance scaling with the extra memory bandwidth varies, but there is usually a performance uplift by doing so (10-30% depending on the application)."
+        ],
+        "source": "https://linustechtips.com/topic/1582687-should-i-use-two-sticks-instead-of-one-i-am-not-going-to-fully-use-all-the-ram/"
+      },
+      {
+        "tag": "pc_freezes_mouse_keyboard_disconnects",
+        "patterns": [
+          "PC freezes, mouse and keyboard disconnect randomly until force restart",
+          "Computer freezing with peripherals disconnecting",
+          "System freeze with USB devices disconnecting",
+          "Random PC freeze and peripheral failure",
+          "Mouse and keyboard disconnecting during freeze",
+          "Computer locks up with device disconnects",
+          "System hangs with USB disconnections",
+          "PC freezing causing peripheral disconnects",
+          "Random freeze with input device failure",
+          "Computer freeze forcing restart"
+        ],
+        "response": [
+          "Try the following steps:\n1. Run stock BIOS settings and check if the issue persists.\n2. Update BIOS.\n3. Reinstall Windows and drivers.\n4. Try different Mouse + Keyboard.\n5. Run Memtest86.\n6. If RAM passes the test and the issue persists, the CPU may be faulty."
+        ],
+        "source": "https://linustechtips.com/topic/1574992-pc-freezes-mouse-and-keyboard-disconnects-randomly-until-force-restart/"
+      },
+      {
+        "tag": "RAM_not_working",
+        "patterns": [
+          "New RAM not working",
+          "RAM issues",
+          "Fresh RAM installation problems",
+          "Recently installed RAM not functioning",
+          "New memory modules not working",
+          "RAM installation troubleshooting",
+          "New RAM sticks not detected",
+          "Problem with new RAM installation",
+          "Recently added RAM not working",
+          "New memory not being recognized"
+        ],
+        "response": "Try reseating the RAM, and ensure that the memory modules are fully clicked into place. Additionally, clear CMOS and try with one RAM stick at a time to check for faulty sticks.",
+        "source": "https://forums.tomshardware.com/threads/new-ram-not-working.3847821/"
+      },
+      {
+        "tag": "PC_random_shutdown",
+        "patterns": [
+          "PC keeps shutting down randomly",
+          "Random shutdowns",
+          "Computer turns off unexpectedly",
+          "System shutting down without warning",
+          "Unexpected PC power offs",
+          "Random computer shutdowns",
+          "PC turning off by itself",
+          "System powers down randomly",
+          "Unexpected shutdown problem",
+          "Computer randomly powers off"
+        ],
+        "response": "The issue could be related to overheating. Check thermal paste, cooling solution, and ensure all components are properly seated. Consider updating BIOS and checking PSU.",
+        "source": "https://forums.tomshardware.com/threads/pc-keeps-shutting-down-randomly.3847022/"
+      },
+
+      
+        {
+          "tag": "PSU_upgrade_GPU",
+          "patterns": [
+            "PSU issue after upgrading GPU",
+            "power supply problem after GPU upgrade",
+            "Why is my PSU struggling after upgrading the GPU?",
+            "Does upgrading the GPU affect the PSU?",
+            "PSU not handling new GPU",
+            "Can my PSU support the new GPU?",
+            "GPU upgrade causing power issues",
+            "Power supply failing after GPU upgrade",
+            "Is my PSU enough for this GPU?",
+            "Upgraded GPU causes power issues"
+          ],
+          "response": "If the PSU is not powerful enough to handle the new GPU, you might face power issues. Consider upgrading to a higher wattage PSU. Verify that all power connections are correct.",
+          "source": "https://forums.tomshardware.com/threads/psu-issue-after-upgrading-gpu.3846259/"
+        },
+        {
+          "tag": "gaming_freeze",
+          "patterns": [
+            "Computer freezes during gaming",
+            "game freezes",
+            "Why does my game freeze randomly?",
+            "My computer freezes in games",
+            "Games freeze after some time",
+            "What causes games to freeze?",
+            "How do I stop my game from freezing?",
+            "Why does my PC freeze when gaming?",
+            "Game crashes when playing",
+            "Freezing issues during gaming"
+          ],
+          "response": "Try updating GPU drivers, reducing overclock settings, and monitoring CPU/GPU temperatures to ensure they're not overheating during heavy loads.",
+          "source": "https://forums.tomshardware.com/threads/computer-freezes-during-gaming.3845502/"
+        },
+        {
+          "tag": "slow_internet_speed",
+          "patterns": [
+            "Why is my internet so slow?",
+            "How do I increase my internet speed?",
+            "My internet is sluggish, what can I do?",
+            "Slow internet connection issues",
+            "How do I improve internet performance?",
+            "Why is my wifi speed so low?",
+            "What can I do to boost my internet speed?",
+            "Why is my broadband so slow?",
+            "How to speed up a slow internet connection?",
+            "How do I fix a slow internet connection?"
+          ],
+          "response": [
+            "Ensure no other devices are consuming too much bandwidth. Also, check for physical obstructions between your device and the wifi router.",
+            "Restart your router and modem. If possible, move closer to the router or switch to a wired Ethernet connection.",
+            "Check for spyware or viruses on your device, which may be slowing down your internet connection. Run a virus scan and remove any malware."
+          ],
+          "source": "Stack Overflow (https://stackoverflow.com/questions/70172384/how-to-detect-slow-internet-speed-in-mobile-apps)"
+        },
+        {
+          "tag": "ethernet_issues",
+          "patterns": [
+            "Ethernet not working",
+            "Why can't I connect through Ethernet?",
+            "How do I fix Ethernet connection problems?",
+            "Ethernet connection is unstable",
+            "Why did my Ethernet connection drop?",
+            "Why is my Ethernet not recognized?",
+            "Ethernet port not working",
+            "Ethernet issues on Windows",
+            "Why is my Ethernet not connecting?",
+            "Ethernet connection not available"
+          ],
+          "response": [
+            "Ensure the Ethernet cable is properly connected to both your PC and the router. Try switching to a different cable if possible.",
+            "Go to Device Manager, find the Ethernet adapter, and uninstall the driver. Then restart your PC, and Windows will reinstall the driver automatically.",
+            "If the Ethernet connection stopped working after an update, you can roll back the update by going to Settings > Windows Update > Update History."
+          ],
+          "source": "Microsoft Support (https://support.microsoft.com/en-us/help/10741/windows-fix-network-connection-issues)"
+        },
+        {
+          "tag": "network_reset",
+          "patterns": [
+            "How do I reset my network settings?",
+            "Reset network settings in Windows",
+            "I need to reset my network configuration",
+            "Network reset not working",
+            "How do I fix network reset issues?",
+            "How do I perform a network reset?",
+            "Why isn't my network reset working?",
+            "How to reset network settings in Windows 10?",
+            "Network reset not fixing problems",
+            "How do I reconfigure my network after reset?"
+          ],
+          "response": [
+            "To reset network settings, go to Settings > Network & Internet > Advanced Network Settings > Network Reset. This will remove all network adapters and reinstall them.",
+            "After a network reset, you'll need to reconnect to your wifi network and reconfigure any VPNs or custom network settings.",
+            "Network reset can help solve problems after an upgrade or when you can't connect to shared drives."
+          ],
+          "source": "Microsoft Support (https://support.microsoft.com/en-us/help/4026635/windows-fix-network-connection-issues-in-windows)"
+        },
+        {
+          "tag": "connectivity_on_surface",
+          "patterns": [
+            "Surface can't connect to wifi",
+            "Why is my Surface not connecting?",
+            "wifi issues on Surface",
+            "Surface wifi problems",
+            "How do I fix wifi on my Surface?",
+            "Surface wifi not working",
+            "Surface can’t detect wifi networks",
+            "Surface wifi connection issue",
+            "Why does my Surface keep disconnecting from wifi?",
+            "How to resolve Surface wifi issues?"
+          ],
+          "response": [
+            "Turn on and off Airplane mode on your Surface, then check if wifi is working. If not, force a restart by holding the power button for 20 seconds.",
+            "Check if the wifi adapter is visible in Device Manager. If it's missing, reinstall the driver or perform a network reset.",
+            "Try running the Windows Network Troubleshooter, restarting your network equipment, or checking if there are any updates available for your Surface."
+          ],
+          "source": "Microsoft Support (https://support.microsoft.com/en-us/help/10741/windows-fix-network-connection-issues)"
+        },
+        {
+          "tag": "wifi_signal_strength",
+          "patterns": [
+            "Why is my wifi signal weak?",
+            "How can I improve wifi signal strength?",
+            "Weak wifi connection at home",
+            "My wifi drops when I'm far from the router",
+            "What causes weak wifi signals?",
+            "How do I boost my wifi signal?",
+            "How to get better wifi reception?",
+            "Why does my wifi signal drop?",
+            "How to increase wifi signal range?",
+            "What can I do about poor wifi signal?"
+          ],
+          "response": [
+            "Move closer to the wifi router or remove any obstructions between your device and the router. Ensure your router is placed in a central location for better coverage.",
+            "Try switching to the 5 GHz frequency if your router supports it for better speed and less interference.",
+            "Consider upgrading your router or using a wifi extender to boost the signal strength in different areas of your home."
+          ],
+          "source": "Microsoft Support (https://support.microsoft.com/en-us/help/10741/windows-fix-network-connection-issues)"
+        },
+        {
+          "tag": "router_reset",
+          "patterns": [
+            "How do I reset my router?",
+            "Router reset instructions",
+            "Why should I reset my router?",
+            "Will resetting my router fix connection issues?",
+            "How do I restart my modem and router?",
+            "What happens when I reset my router?",
+            "Why do I need to reset my router?",
+            "How do I reset my home router?",
+            "Router reset to fix internet problems",
+            "How to perform a router reset?"
+          ],
+          "response": [
+            "To reset your router, unplug it from the power source, wait 30 seconds, then plug it back in. Allow a few minutes for the connection to reestablish.",
+            "Restarting your modem and router can refresh the connection to your internet service provider (ISP) and resolve network issues.",
+            "Resetting your router restores it to its default settings, which may resolve connection problems caused by incorrect configurations."
+          ],
+          "source": "Stack Overflow (https://stackoverflow.com/questions/12259185/how-do-i-revert-back-to-an-openwrt-router-configuration)"
+        },
+        {
+          "tag": "vpn_connection_issues",
+          "patterns": [
+            "Why can't I connect to my VPN?",
+            "VPN not working on Windows",
+            "How do I fix VPN connection issues?",
+            "VPN connection is slow",
+            "VPN keeps disconnecting",
+            "Why won't my VPN connect?",
+            "How to resolve VPN connection issues?",
+            "VPN not responding",
+            "VPN connection dropping",
+            "How do I fix slow VPN speeds?"
+          ],
+          "response": [
+            "Ensure that your VPN client is up-to-date and configured correctly. Try restarting your VPN client and reconnecting to the server.",
+            "Check if your internet connection is stable before connecting to the VPN. VPN performance depends on your base connection speed.",
+            "Try switching to a different VPN server or protocol to see if that resolves the connection issue."
+          ],
+          "source": "Microsoft Support (https://support.microsoft.com/en-us/help/15089/windows-fix-network-connection-issues)"
+        },
+
+        {
+            "tag": "firewall_blocking_connection",
+            "patterns": [
+              "Why is my firewall blocking the connection?",
+              "How do I fix firewall blocking issues?",
+              "My firewall is causing network problems",
+              "Firewall settings prevent me from connecting",
+              "How do I configure my firewall for network access?",
+              "Firewall keeps blocking certain websites",
+              "How do I allow specific apps through the firewall?",
+              "What is the cause of firewall connection problems?",
+              "Why can't I access the internet because of my firewall?",
+              "How do I disable my firewall to test network issues?"
+            ],
+            "response": [
+              "Go to Windows Security > Firewall & network protection and ensure that your firewall is configured to allow network traffic.",
+              "Add an exception for your network in the firewall settings, or temporarily disable the firewall to see if it's the cause of the issue.",
+              "Check if any recent updates changed your firewall rules and restore them to the previous settings."
+            ],
+            "source": "Microsoft Support (https://support.microsoft.com/en-us/help/4028544/windows-10-allow-blocked-firewall-apps)"
+          },
+          {
+            "tag": "modem_issues",
+            "patterns": [
+              "Why is my modem not working?",
+              "How do I troubleshoot modem problems?",
+              "My modem is not connecting to the internet",
+              "Modem issues in Windows",
+              "How to reset a modem?",
+              "Why is my modem blinking red?",
+              "How do I check if my modem is faulty?",
+              "What should I do if my modem is not getting a signal?",
+              "Modem not syncing with the network",
+              "How can I fix modem connectivity problems?"
+            ],
+            "response": [
+              "Make sure the modem is properly connected to the power source and that all cables are securely plugged in.",
+              "Restart your modem by unplugging it from the power source, waiting for 30 seconds, then plugging it back in.",
+              "If your modem has a battery backup, remove and reinsert the battery to perform a full reset."
+            ],
+            "source": "Microsoft Support (https://support.microsoft.com/en-us/help/10741/windows-fix-network-connection-issues)"
+          },
+          {
+            "tag": "vpn_configuration",
+            "patterns": [
+              "How do I configure a VPN?",
+              "Setting up a VPN on Windows",
+              "How to configure VPN settings",
+              "VPN configuration for remote work",
+              "How do I set up a VPN connection?",
+              "VPN not connecting after configuration",
+              "Which VPN protocol should I use?",
+              "How do I configure a VPN on my router?",
+              "How do I set up a VPN for my workplace?",
+              "What is the best VPN configuration for speed?"
+            ],
+            "response": [
+              "Go to Settings > Network & Internet > VPN to add a new VPN connection. Enter the VPN server address, connection name, and login details provided by your VPN service.",
+              "Ensure your VPN is set to use the correct VPN protocol (e.g., OpenVPN, L2TP) based on your network configuration.",
+              "Consult your VPN provider's documentation for specific setup instructions and connection options."
+            ],
+            "source": "Microsoft Support (https://support.microsoft.com/en-us/help/15089/windows-fix-network-connection-issues)"
+          },
+          {
+            "tag": "conflicting_wifi_channels",
+            "patterns": [
+              "wifi losing signal",
+              "How do I fix wifi signal drops?",
+              "wifi interference issues",
+              "wifi keeps disconnecting due to signal",
+              "Why does my wifi lose signal?",
+              "How do I fix wifi congestion?",
+              "What are the best wifi channels for my router?",
+              "How can I stop wifi interference from other networks?",
+              "My wifi signal drops when I'm far from the router",
+              "Why does my wifi have intermittent disconnections?"
+            ],
+            "response": [
+              "Check for conflicting wifi channels or interference from nearby networks. Changing your router's wifi channel manually or switching to the 5GHz band may help.",
+              "Ensure your router's firmware is up-to-date, as outdated firmware can cause connectivity issues.",
+              "Consider using a wifi analyzer app to find the best channel for your wifi network."
+            ],
+            "source": "Stack Overflow (https://stackoverflow.com/questions/26348558/losing-internet-connection-but-not-signal-wifi)"
+          },
+          {
+            "tag": "network_printer_issues",
+            "patterns": [
+              "Why can't I connect to my network printer?",
+              "Printer not connecting to wifi",
+              "How to fix network printer issues?",
+              "Printer connection timed out",
+              "Printer not found on the network",
+              "Why can't my printer find the network?",
+              "How do I reconfigure my network printer?",
+              "My network printer is offline",
+              "Printer says 'not connected to network'",
+              "Why is my printer having trouble with wifi?"
+            ],
+            "response": [
+              "Ensure the printer is properly connected to the network and that you're using the correct IP address for the printer.",
+              "Restart both your router and printer. Check your firewall settings for any restrictions that may prevent printer communication.",
+              "If the problem persists, try reinstalling the printer drivers or resetting the printer's network settings."
+            ],
+            "source": "Stack Overflow (https://stackoverflow.com/questions/78377876/trouble-connecting-to-network-printer-in-php-connection-timeout-issue-error-co)"
+          },
+          {
+            "tag": "firmware_update_failed",
+            "patterns": [
+              "Router firmware update failed",
+              "Why can't I update my router firmware?",
+              "Firmware update problem",
+              "How to fix router firmware issues?",
+              "Firmware update failed on my router",
+              "How do I restore router firmware?",
+              "Why is my router firmware update not completing?",
+              "How do I install router firmware manually?",
+              "Why does my router fail after a firmware update?",
+              "How can I troubleshoot firmware update failures?"
+            ],
+            "response": [
+              "Try performing a hard reset on the router and reattempting the firmware update. Ensure you are downloading the correct firmware from the router manufacturer's website.",
+              "If the update fails repeatedly, use the router's recovery mode or manually install the firmware using a direct connection.",
+              "Check if there is enough space on the router to install the new firmware version."
+            ],
+            "source": "Stack Overflow (https://stackoverflow.com/questions/tagged/firmware)"
+          },
+          {
+            "tag": "wifi_disconnects_after_sleep",
+            "patterns": [
+              "wifi disconnects after sleep mode",
+              "Why does my wifi disconnect when my phone is asleep?",
+              "How to keep wifi connected during sleep?",
+              "wifi keeps turning off after sleep",
+              "wifi disconnects when phone is locked",
+              "Why does my wifi drop after standby mode?",
+              "How can I prevent wifi disconnections after sleep?",
+              "How to maintain wifi connectivity during sleep mode?",
+              "Wifi disconnecting after hibernation",
+              "How can I stop my device from disconnecting from wifi?"
+            ],
+            "response": [
+              "Adjust your device's wifi sleep policy to 'Never disconnect wifi' in the advanced wifi settings.",
+              "Use third-party apps that prevent wifi from disconnecting during sleep or standby modes.",
+              "Check if battery-saving settings are affecting wifi behavior and adjust them to allow continuous network access."
+            ],
+            "source": "Stack Overflow (https://stackoverflow.com/questions/3871824/how-do-i-keep-wifi-from-disconnecting-when-phone-is-asleep)"
+          },
+          {
+            "tag": "connect_hidden_wifi_network",
+            "patterns": [
+              "How do I connect to a hidden wifi network?",
+              "Connecting to a hidden SSID",
+              "Hidden wifi network connection issues",
+              "Can't connect to hidden wifi",
+              "How to find and connect to hidden wifi",
+              "How do I make my wifi network hidden?",
+              "Why can't I see my hidden wifi network?",
+              "What should I do if my hidden wifi network isn't showing?",
+              "Can I connect to a hidden wifi network manually?",
+              "How do I find the password for a hidden wifi network?"
+            ],
+            "response": [
+              "Use the command `nmcli dev wifi connect <SSID> password <password> hidden yes` to connect to a hidden wifi network.",
+              "Ensure the SSID and password are correctly configured and that your device supports hidden networks.",
+              "Manually configure the hidden network settings in your device's wifi settings if automatic detection fails."
+            ],
+            "source": "Stack Overflow (https://stackoverflow.com/questions/35476428/how-to-connect-to-hidden-wifi-network-using-nmcli)"
+          },
+          {
+            "tag": "GPU_fan_issue",
+            "patterns": [
+              "GPU fan not spinning properly",
+              "fan issues",
+              "Why is my GPU fan not working?",
+              "GPU fan not spinning at all",
+              "How do I fix a stuck GPU fan?",
+              "GPU fan noise issues",
+              "My GPU fan is making a weird noise",
+              "How do I test a GPU fan?",
+              "GPU overheating due to fan issues",
+              "Why is my GPU fan spinning slowly?"
+            ],
+            "response": "Ensure the GPU fan is properly connected to the motherboard. Try cleaning the fan of dust or check if the fan requires replacement.",
+            "source": "https://forums.tomshardware.com/threads/gpu-fan-not-spinning-properly.3844663/"
+          },
+          {
+            "tag": "GPU_black_screen",
+            "patterns": [
+              "GPU causing black screen during boot",
+              "black screen on startup",
+              "Why does my screen go black after installing a new GPU?",
+              "How do I fix a black screen caused by GPU?",
+              "GPU causing boot failure",
+              "Why does my computer show a black screen after the GPU update?",
+              "How can I solve black screen issues with GPU?",
+              "What should I do if my screen turns black during gaming?",
+              "GPU black screen during login",
+              "Why does my GPU cause a black screen?"
+            ],
+            "response": "Try reseating the GPU, updating the drivers, or switching to a different PCIe slot. If the problem persists, it could be a faulty GPU.",
+            "source": "https://forums.tomshardware.com/threads/gpu-causing-black-screen-during-boot.3841356/"
+          }] 
+        
+}
+          
+      
+      
