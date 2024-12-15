@@ -49,16 +49,16 @@ I started started off with collecting dataset manually from websites like, "stac
 
 ### 1. **Query Lifecycle**
 
-![Query Lifecycle](data:Images/Text_Processing.png) 
+![Query Lifecycle](Images/Text_Processing.png) 
 
 ### 2. **Text Processing**
-![Text Processing](data:Images/TextProcessing.png) 
+![Text Processing](Images/TextProcessing.png) 
 
 ### 3. **WorkFlow**
-![Text Processing](data:Images/WorkFlow.png) 
+![Text Processing](Images/WorkFlow.png) 
 
 ### 4. **Working**
-![Text Processing](data:Images/Working.png) 
+![Text Processing](Images/Working.png) 
 
 
 
