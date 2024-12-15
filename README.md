@@ -12,31 +12,18 @@
     * Install the required packages using the command "pip/pip3 install -r requirements.txt". (Preferred to install in inside a virtual environmet, to overcome the bugs of overriding) 
     * Start the server with command "python/python3 test.py".
 
-Use our techbot after setting up the front-end and backend running successfully.
+Use our techbot after setting up the front-end and backend running successfully.b
 
 
 
 
 
 
-### Project inforamtion -- Group number - 11 
-
-
-### Group objective - Chatbot for Customer support
-
-
-
-#### Group Details: 
-
-1. Anudeep Tippabathuni - S20220010226 
-2. Suguru Sai Kiran - S20220010212 
-3. Tharun Kumar L - S20220010123 
-4. Koushik Pula - S20220010156 
-
+### Project inforamtion
 
 ### Methodology
 
-We all four started off with collecting dataset manually from websites like, "stack overflow", "linus tech tips" and "microsoft support". It's stored in "corpus" folder with structure ,
+I started started off with collecting dataset manually from websites like, "stack overflow", "linus tech tips" and "microsoft support". It's stored in "corpus" folder with structure ,
 
 
 """"" 
@@ -60,32 +47,20 @@ We all four started off with collecting dataset manually from websites like, "st
 
 ## Steps of our work :- 
 
+### 1. **Query Lifecycle**
 
-### 1. **Data Loading**:
-- The data is loaded from the file `data_mid_2.json`. This file contains multiple intents, each of which has **patterns** (example user inputs) and corresponding **tags** (categories or labels of the inputs). These tags are the target labels for our model.
-- We also load the intents from the JSON file and start processing the data to prepare it for the model.
+![Query Lifecycle](data:Images/Text_Processing.png) 
 
-### 2. **Text Preprocessing**:
-- **Tokenizing Sentences**: 
-  - Each pattern (user query) is tokenized into individual words using the `nltk` tokenizer. 
-  - These tokenized words are further processed by **lemmatizing**, which converts words to their base form (e.g., "running" becomes "run").
-- **Word Collection**:
-  - The lemmatized words are collected into a list called `words`, and the intent tags are stored in `classes`. These will be used later for building the model.
-  - All the words (excluding special characters) are sorted and stored in a `words.pkl` file for future use.
-  - Similarly, the unique intent classes are stored and saved in `classes.pkl`.
+### 2. **Text Processing**
+![Text Processing](data:Images/TextProcessing.png) 
 
-### 3. **Training Data Preparation**:
-- **Bag of Words**:
-  - A "Bag of Words" is generated for each pattern, where a list is created for each sentence, representing the presence (1) or absence (0) of each word in the `words` list.
-  - For each sentence, we also create an **output row**, where each row represents the target tag (intent) for that sentence. For instance, if the intent for a sentence is "greeting", the corresponding index for "greeting" in the output array is set to 1, while others remain 0.
-- **Shuffling and Splitting**:
-  - The dataset is shuffled to ensure randomness in the training process.
-  - The training data is then divided into features (`train_x`) and labels (`train_y`). The features contain the bag-of-words representation of the sentences, while the labels correspond to the intents (tags).
+### 3. **WorkFlow**
+![Text Processing](data:Images/WorkFlow.png) 
 
-### 4. **Loading Additional Data for Model**:
-- **Reusing Data**:
-  - Another dataset (from `corpus/data_mid_2.json`) is used to further tokenize the sentences. The labels (tags) are encoded using `LabelEncoder`, which converts text labels into numerical values.
-  - **Tokenizer** is applied to convert text data into sequences of numbers (representing words). These sequences are then **padded** to ensure they all have the same length (i.e., they are uniformly shaped for input into the model).
+### 4. **Working**
+![Text Processing](data:Images/Working.png) 
+
+
 
 ### 5. **Train-Test Split**:
 - The padded sequences are split into two sets: **training data** (80%) and **validation data** (20%). This ensures that the model can be evaluated on unseen data while training.
@@ -101,7 +76,7 @@ We all four started off with collecting dataset manually from websites like, "st
   - **Softmax Activation**: The final layer uses a softmax activation function to predict the probability of each intent class.
 
 ### 7. **Model Compilation**:
-- The model is compiled using the **Adam optimizer** with a learning rate of `0.002`. The loss function used is **sparse categorical cross-entropy**, suitable for multi-class classification problems.
+- The model is compiled using the **Adam optimizer** with a learning rate of `0.001`. The loss function used is **sparse categorical cross-entropy**, suitable for multi-class classification problems.
 - The model tracks accuracy as a metric during training.
 
 ### 8. **Model Training**:
@@ -112,6 +87,6 @@ We all four started off with collecting dataset manually from websites like, "st
 - These metrics indicate how well the model performs on unseen data (validation data) after the training process.
 
 ### 10. **Model and Tokenizer Saving**:
-- Once the model is trained, it is saved as a file (`chatbot_model_v1.keras`) for later use.
+- Once the model is trained, it is saved as a file (`my_model.keras`) for later use.
 - The **Tokenizer** and **LabelEncoder** objects are also saved as `.pkl` files. These are required during inference to preprocess new input data (converting text into sequences).
 - The maximum length of input sequences (`max_len`) is stored in a separate file (`model_metadata.json`), which is useful for padding future inputs correctly.
